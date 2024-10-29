@@ -1,4 +1,4 @@
-#Linux DNS Change Script
+# Linux DNS Change Script
 
 A simple Bash script to change the DNS settings on your system. This script allows you to select a predefined DNS server from a list and updates the `/etc/resolv.conf` file accordingly. It also handles scenarios where the `resolv.conf` file is managed by `systemd-resolved`.
 
