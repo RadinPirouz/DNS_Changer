@@ -7,6 +7,7 @@ declare -A dns_servers=(
   [3]="Electro:78.157.42.100"
   [4]="Radar_Game:10.202.10.10"
   [5]="Google:8.8.8.8"
+  [6]="Begzar:185.55.226.26"
 )
 
 # Display options
@@ -19,7 +20,7 @@ done
 read -p "Enter the number corresponding to your choice: " input
 
 # Check if input is valid
-if [[ $input =~ ^[1-5]$ ]]; then
+if [[ $input =~ ^[1-6]$ ]]; then
   # Extract the corresponding DNS address
   dns_address="${dns_servers[$input]#*:}"
   
