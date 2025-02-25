@@ -16,7 +16,7 @@ A simple Bash script to change the DNS settings on your system. This script allo
 3. Electro: 78.157.42.100
 4. Radar_Game: 10.202.10.10
 5. Google: 8.8.8.8
-
+6. Begzar: 185.55.226.26
 ## Requirements
 
 - Bash shell
