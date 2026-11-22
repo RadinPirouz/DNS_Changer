@@ -8,7 +8,7 @@ declare -A dns_servers=(
   [4]="Radar_Game:10.202.10.10"
   [5]="Google:8.8.8.8"
   [6]="Begzar:185.55.226.26"
-  [7]="DNSPro:87.107.110.110"
+  [7]="DNSPro:80.244.11.244"
 )
 
 # Display options
